@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0.0" method="upgrade">
+	<name>StarShop</name>
+	<author>IRjoomstar</author>
+	<creationDate>May 2020</creationDate>
+	<copyright>(C) 2012 - 2020 joomstar.ir All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<packagename>jstar_shop</packagename>
+	<version>1.0.9</version>
+	<url>http://www.joomstar.ir</url>
+	<packager>IRjoomstar</packager>
+    <description>E-Commerce software built for simplicity and flexibility</description>
+	<files>
+		<file type="component" id="com_jstar_shop" >com_jstar_shop.zip</file>
+		<file type="module" id="mod_jstar_shop_amazing" client="site">mod_jstar_shop_amazing.zip</file>
+		<file type="module" id="mod_jstar_shop_best" client="site">mod_jstar_shop_best.zip</file>
+		<file type="module" id="mod_jstar_shop_cart" client="site">mod_jstar_shop_cart.zip</file>
+		<file type="module" id="mod_jstar_shop_compare" client="site">mod_jstar_shop_compare.zip</file>
+		<file type="module" id="mod_jstar_shop_login" client="site">mod_jstar_shop_login.zip</file>
+		<file type="module" id="mod_jstar_shop_search" client="site">mod_jstar_shop_search.zip</file>
+		<file type="module" id="mod_jstar_shop_search_txt" client="site">mod_jstar_shop_search_txt.zip</file>
+		<file type="module" id="mod_jstar_shop_similars" client="site">mod_jstar_shop_similars.zip</file>
+		<file type="module" id="mod_jstar_shop_tag" client="site">mod_jstar_shop_tag.zip</file>
+		<file type="plugin" id="plg_jstar_shop_SamplePayment" group="jstar_shop_payments">plg_jstar_shop_SamplePayment.zip</file>
+		<file type="template" id="tpl_jstar_shop_joomstar" client="site">tpl_jstar_shop_joomstar.zip</file>
+	</files>
+	<updateservers>
+		<server type="extension" name="com_jstar_shop">https://joomstar.ir/starshop/updates/pkg/updates.xml</server>
+	</updateservers>
+</extension>
